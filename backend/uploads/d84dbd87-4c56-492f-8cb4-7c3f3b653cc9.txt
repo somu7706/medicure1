@@ -1,0 +1,4 @@
+Patient Name: John Doe
+Rx:
+1. Amoxicillin 500mg BD x 5 days
+2. Paracetamol 650mg SOS

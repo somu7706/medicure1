@@ -1,0 +1,177 @@
+{
+  "identity": {
+    "name": "VitalWave",
+    "essence": "Premium Clinical Intelligence",
+    "vibe": "Warm, Precise, Human-Centric, Editorial",
+    "archetype": "The Empathetic Expert",
+    "design_principles": [
+      "Fusion over Imitation: Mix Clinical Precision with Spa-like Warmth",
+      "Emotion First: Anxiety reduction through calm colors and soft motion",
+      "Content is King: Data visualization must be instantly readable (The 'Health Passport' concept)",
+      "Zoom In: High-fidelity details on medical imagery",
+      "Negative Space: Generous padding to prevent cognitive overload"
+    ]
+  },
+  "typography": {
+    "primary_font": "Plus Jakarta Sans",
+    "secondary_font": "Inter",
+    "usage": {
+      "headings": "Plus Jakarta Sans, weights 600-800, tracking-tight",
+      "body": "Inter, weights 400-500, relaxed leading",
+      "mono": "JetBrains Mono (for medical codes/dosages)"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-6xl font-bold tracking-tighter",
+      "h2": "text-3xl md:text-4xl font-semibold tracking-tight",
+      "h3": "text-2xl font-medium",
+      "body": "text-base leading-relaxed text-muted-foreground",
+      "caption": "text-xs uppercase tracking-widest font-semibold text-muted-foreground/80"
+    }
+  },
+  "colors": {
+    "palette": {
+      "light": {
+        "background": "#F9F9F7",
+        "foreground": "#1A2E26",
+        "card": "#FFFFFF",
+        "card_foreground": "#1A2E26",
+        "primary": "#0F766E",
+        "primary_foreground": "#FFFFFF",
+        "secondary": "#F0FDF4",
+        "secondary_foreground": "#14532D",
+        "accent": "#14B8A6",
+        "accent_foreground": "#FFFFFF",
+        "muted": "#F2F4F3",
+        "muted_foreground": "#64748B",
+        "border": "#E2E8F0",
+        "input": "#F1F5F9",
+        "ring": "#0F766E"
+      },
+      "dark": {
+        "background": "#0D1F1C",
+        "foreground": "#E6EBE9",
+        "card": "#142623",
+        "card_foreground": "#E6EBE9",
+        "primary": "#2DD4BF",
+        "primary_foreground": "#0D1F1C",
+        "secondary": "#11302C",
+        "secondary_foreground": "#CCFBF1",
+        "accent": "#14B8A6",
+        "accent_foreground": "#FFFFFF",
+        "muted": "#1A2E26",
+        "muted_foreground": "#94A3B8",
+        "border": "#2D4A44",
+        "input": "#1A2E26",
+        "ring": "#2DD4BF"
+      }
+    },
+    "special_colors": {
+      "amber_signal": "#F59E0B",
+      "danger_signal": "#EF4444",
+      "success_signal": "#10B981",
+      "glass_border_light": "rgba(255, 255, 255, 0.4)",
+      "glass_border_dark": "rgba(255, 255, 255, 0.1)"
+    }
+  },
+  "visual_enhancers": {
+    "glass_panel": "backdrop-blur-xl bg-white/60 dark:bg-black/40 border border-white/20 shadow-sm",
+    "ecg_pattern": "bg-[radial-gradient(#1A2E26_1px,transparent_1px)] [background-size:20px_20px] opacity-[0.03]",
+    "vital_wave_gradient": "bg-gradient-to-r from-emerald-500/10 via-teal-500/10 to-transparent",
+    "shadows": {
+      "soft": "shadow-[0_4px_20px_-2px_rgba(0,0,0,0.05)]",
+      "glow": "shadow-[0_0_15px_rgba(20,184,166,0.3)]"
+    },
+    "border_radius": {
+      "card": "rounded-2xl",
+      "button": "rounded-full"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "grid_system": "grid grid-cols-1 md:grid-cols-12 gap-6",
+    "spacing": {
+      "section": "py-16 md:py-24",
+      "element": "space-y-6"
+    },
+    "sidebar": {
+      "width": "w-64",
+      "collapsed_width": "w-20",
+      "style": "fixed left-0 top-0 h-full border-r border-border/40 bg-background/80 backdrop-blur-md z-40"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 font-medium transition-all hover:scale-[1.02] active:scale-[0.98]",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-full px-8 py-6 font-medium",
+      "ghost": "hover:bg-muted text-foreground rounded-full px-6 py-4"
+    },
+    "cards": {
+      "clinical": "relative overflow-hidden rounded-2xl border border-border/50 bg-card/50 backdrop-blur-sm p-6 transition-all hover:border-primary/20 hover:shadow-lg",
+      "highlight": "bg-gradient-to-br from-primary/5 to-accent/5 border border-primary/10"
+    },
+    "inputs": {
+      "style": "h-12 rounded-xl border-border/50 bg-background/50 focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
+    }
+  },
+  "image_urls": {
+    "doctors": [
+      {
+        "url": "https://images.unsplash.com/photo-1615177393114-bd2917a4f74a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwyfHxkb2N0b3IlMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjkzNjc0MDF8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Dr. Male Portrait",
+        "category": "doctor_profile"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1612636320854-776180f479d8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwzfHxkb2N0b3IlMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjkzNjc0MDF8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Dr. Pointing",
+        "category": "doctor_action"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1755189118414-14c8dacdb082?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjkzNjc0MDF8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Medical Team",
+        "category": "team"
+      }
+    ],
+    "facilities": [
+      {
+        "url": "https://images.unsplash.com/photo-1597807037496-c56a1d8bc29a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBob3NwaXRhbCUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MHx8fHwxNzY5MzY3NDAzfDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Modern Hospital Exterior",
+        "category": "hospital_exterior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1764885517847-79d62138cc58?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBob3NwaXRhbCUyMGJ1aWxkaW5nJTIwZXh0ZXJpb3J8ZW58MHx8fHwxNzY5MzY3NDAzfDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Glass Medical Building",
+        "category": "clinic_exterior"
+      }
+    ],
+    "medicines": [
+      {
+        "url": "https://images.unsplash.com/photo-1544829894-eb023ba95a38?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwcGlsbHMlMjBtZWRpY2luZSUyMGJvdHRsZXxlbnwwfHx8fDE3NjkzNjc0MDR8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "White Pills",
+        "category": "medicine_generic"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1659019479940-e3fd3fba24d8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwyfHxtZWRpY2FsJTIwcGlsbHMlMjBtZWRpY2luZSUyMGJvdHRsZXxlbnwwfHx8fDE3NjkzNjc0MDR8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Medicine Bottle",
+        "category": "medicine_bottle"
+      }
+    ]
+  },
+  "universal_guidelines": [
+    "Avoid 'AI Slop': No generic gradients, no centered text blocks without purpose.",
+    "Dark Mode: Must be 'Emerald Tinted' (#0D1F1C), NOT pure black.",
+    "Glassmorphism: Use sparingly for depth (Sidebar, Cards), not everywhere.",
+    "Micro-interactions: Buttons must scale slightly on click. Links must have hover underlines.",
+    "Accessibility: Ensure text contrast > 4.5:1. Use 'sr-only' for icon-only buttons.",
+    "Data-TestID: All interactive elements must have data-testid attributes.",
+    "No 'Lorem Ipsum': Use realistic medical data (e.g., 'Blood Pressure: 120/80 mmHg')."
+  ],
+  "instructions_to_main_agent": [
+    "1. Install 'lucide-react', 'recharts', 'framer-motion', 'clsx', 'tailwind-merge' immediately.",
+    "2. Create a 'Layout' component that includes the Sidebar and Topbar.",
+    "3. Implement the 'VitalWave' splash screen using framer-motion.",
+    "4. Use the 'Glass Clinical Panel' style for all dashboard widgets.",
+    "5. Ensure the Map component (Leaflet/Google Maps) has a custom style to match the theme.",
+    "6. The 'My Health' section is conditional - hide it until user uploads first report.",
+    "7. Use the provided image URLs for the Doctors and Nearby Care sections."
+  ]
+}

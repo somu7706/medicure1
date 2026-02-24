@@ -1,0 +1,1311 @@
+[
+    {
+        "key": "dengue_fever",
+        "category": "Viral Infection",
+        "labels": {
+            "en": "Dengue Fever",
+            "hi": " डेंगू बुखार",
+            "te": "డెంగ్యూ జ్వరం"
+        },
+        "section_headings": {
+            "reasons": {
+                "en": "Reasons / Causes",
+                "hi": "कारण",
+                "te": "కారణాలు"
+            },
+            "symptoms": {
+                "en": "Symptoms",
+                "hi": "लक्षण",
+                "te": "లక్షణాలు"
+            },
+            "suggestions": {
+                "en": "Suggestions",
+                "hi": "सुझाव",
+                "te": "సూచనలు"
+            }
+        },
+        "reasons": {
+            "en": [
+                "Stagnant water",
+                "Open water tanks",
+                "Poor drainage"
+            ],
+            "hi": [
+                "रुका हुआ पानी",
+                "खुले पानी के टैंक",
+                "खराब जल निकासी"
+            ],
+            "te": [
+                "నిల్వ నీరు",
+                "తెరచిన నీటి ట్యాంకులు",
+                "మురుగునీటి సమస్య"
+            ]
+        },
+        "symptoms": [
+            {
+                "name": "Fever",
+                "type": "numeric",
+                "unit": "F",
+                "ranges": {
+                    "high": [
+                        102,
+                        105
+                    ]
+                },
+                "weight": 1.0
+            },
+            {
+                "name": "Joint Pain",
+                "type": "boolean",
+                "weight": 0.9
+            },
+            {
+                "name": "Severe Headache",
+                "type": "boolean",
+                "weight": 0.8
+            },
+            {
+                "name": "Skin Rash",
+                "type": "boolean",
+                "weight": 0.7
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Use mosquito repellents",
+                    "Wear full-sleeve clothing"
+                ],
+                "hi": [
+                    "मच्छर भगाने वाली दवाओं का प्रयोग करें",
+                    "पूरी बाजू के कपड़े पहनें"
+                ],
+                "te": [
+                    "దోమల మందు వాడండి",
+                    "పూర్తిగా కవర్ అయ్యే బట్టలు వేసుకోండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Remove stagnant water",
+                    "Cover tanks"
+                ],
+                "hi": [
+                    "रुका हुआ पानी हटा दें",
+                    "टेंकियाँ ढक कर रखें"
+                ],
+                "te": [
+                    "నిల్వ నీటిని తొలగించండి",
+                    "ట్యాంకులను మూసి ఉంచండి"
+                ]
+            }
+        }
+    },
+    {
+        "key": "diarrhea",
+        "category": "Digestive Disorder",
+        "labels": {
+            "en": "Diarrhea",
+            "hi": "दस्त",
+            "te": "విరేచనాలు"
+        },
+        "reasons": {
+            "en": [
+                "Contaminated water",
+                "Poor sanitation"
+            ],
+            "hi": [
+                "दूषित पानी",
+                "खराब स्वच्छता"
+            ],
+            "te": [
+                "కలుషిత నీరు",
+                "పరిశుభ్రత లోపం"
+            ]
+        },
+        "symptoms": [
+            {
+                "name": "Loose Stools",
+                "type": "boolean",
+                "weight": 1.0
+            },
+            {
+                "name": "Abdominal Pain",
+                "type": "boolean",
+                "weight": 0.7
+            },
+            {
+                "name": "Dehydration",
+                "type": "boolean",
+                "weight": 0.8
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Drink ORS",
+                    "Boiled water"
+                ],
+                "hi": [
+                    "ओआरएस पिएं",
+                    "उबला हुआ पानी पीएं"
+                ],
+                "te": [
+                    "ORS దావణం తాగండి",
+                    "కాచి చల్లార్చిన నీరు తాగండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Clean water source",
+                    "Hygiene"
+                ],
+                "hi": [
+                    "स्वच्छ जल स्रोत",
+                    "स्वच्छता"
+                ],
+                "te": [
+                    "నీటి వనరుల శుభ్రత",
+                    "వ్యక్తిగత శుభ్రత"
+                ]
+            }
+        }
+    },
+    {
+        "key": "asthma",
+        "category": "Respiratory",
+        "labels": {
+            "en": "Asthma",
+            "hi": "अस्थमा",
+            "te": "ఆస్తమా"
+        },
+        "reasons": {
+            "en": [
+                "Air pollution",
+                "Dust exposure",
+                "Smoke"
+            ],
+            "hi": [
+                "वायु प्रदूषण",
+                "धूल",
+                "धुआं"
+            ],
+            "te": [
+                "గాలి కాలుష్యం",
+                "ధూళి",
+                "పొగ"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "breathlessness",
+                "type": "boolean",
+                "weight": 1.0,
+                "label": {
+                    "en": "Shortness of Breath",
+                    "hi": "सांस लेने में दिक्कत",
+                    "te": "శ్వాస తీసుకోవడంలో ఇబ్బంది"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Avoid dust",
+                    "Use mask"
+                ],
+                "hi": [
+                    "धूल से बचें",
+                    "मास्क पहनें"
+                ],
+                "te": [
+                    "ధూళి తప్పించండి",
+                    "మాస్క్ ధరించండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Improve air quality"
+                ],
+                "hi": [
+                    "हवा की गुणवत्ता सुधारें"
+                ],
+                "te": [
+                    "గాలి నాణ్యత మెరుగుపరచండి"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Pollution control"
+                ],
+                "hi": [
+                    "प्रदूषण नियंत्रण"
+                ],
+                "te": [
+                    "కాలుష్య నియంత్రణ"
+                ]
+            }
+        }
+    },
+    {
+        "key": "heat_stroke",
+        "category": "Environmental",
+        "labels": {
+            "en": "Heat Stroke",
+            "hi": "लू लगना",
+            "te": "వడదెబ్బ"
+        },
+        "reasons": {
+            "en": [
+                "Extreme heat",
+                "Dehydration"
+            ],
+            "hi": [
+                "तेज गर्मी",
+                "पानी की कमी"
+            ],
+            "te": [
+                "అధిక వేడి",
+                "డీహైడ్రేషన్"
+            ]
+        },
+        "symptoms": [
+            {
+                "name": "Body Temperature",
+                "type": "numeric",
+                "unit": "F",
+                "ranges": {
+                    "critical": [
+                        104,
+                        108
+                    ]
+                },
+                "weight": 1.0
+            },
+            {
+                "name": "Dizziness",
+                "type": "boolean",
+                "weight": 0.7
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Hydrate",
+                    "Stay indoors"
+                ],
+                "hi": [
+                    "पानी पिएं",
+                    "घर के अंदर रहें"
+                ],
+                "te": [
+                    "నీరు తాగండి",
+                    "ఇంట్లోనే ఉండండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Shade",
+                    "Cooling"
+                ],
+                "hi": [
+                    "छाया",
+                    "शीतलन"
+                ],
+                "te": [
+                    "నీడ",
+                    "చల్లదనం"
+                ]
+            }
+        }
+    },
+    {
+        "key": "typhoid",
+        "category": "Bacterial Infection",
+        "labels": {
+            "en": "Typhoid",
+            "hi": "टाइफाइड",
+            "te": "టైఫాయిడ్"
+        },
+        "reasons": {
+            "en": [
+                "Contaminated food",
+                "Unsafe drinking water"
+            ],
+            "hi": [
+                "दूषित भोजन",
+                "असुरक्षित पानी"
+            ],
+            "te": [
+                "కాలుష్య ఆహారం",
+                "అసురక్షిత త్రాగునీరు"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "prolonged_fever",
+                "type": "boolean",
+                "weight": 1.0,
+                "label": {
+                    "en": "Prolonged Fever",
+                    "hi": "लंबे समय तक बुखार",
+                    "te": "ఎక్కువ రోజులు జ్వరం"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Drink boiled water"
+                ],
+                "hi": [
+                    "उबला हुआ पानी पिएं"
+                ],
+                "te": [
+                    "మరిగించిన నీరు త్రాగండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Maintain food hygiene"
+                ],
+                "hi": [
+                    "भोजन स्वच्छता रखें"
+                ],
+                "te": [
+                    "ఆహార పరిశుభ్రత పాటించండి"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Food safety awareness"
+                ],
+                "hi": [
+                    "खाद्य सुरक्षा जागरूकता"
+                ],
+                "te": [
+                    "ఆహార భద్రత అవగాహన"
+                ]
+            }
+        }
+    },
+    {
+        "key": "influenza",
+        "category": "Viral Infection",
+        "labels": {
+            "en": "Influenza (Flu)",
+            "hi": "फ्लू",
+            "te": "ఫ్లూ"
+        },
+        "reasons": {
+            "en": [
+                "Seasonal virus spread",
+                "Low immunity"
+            ],
+            "hi": [
+                "मौसमी वायरस",
+                "कम प्रतिरोधक शक्ति"
+            ],
+            "te": [
+                "కాలానుగుణ వైరస్",
+                "తక్కువ రోగనిరోధక శక్తి"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "body_ache",
+                "type": "boolean",
+                "weight": 0.8,
+                "label": {
+                    "en": "Body Ache",
+                    "hi": "शरीर दर्द",
+                    "te": "శరీర నొప్పులు"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Take rest"
+                ],
+                "hi": [
+                    "आराम करें"
+                ],
+                "te": [
+                    "విశ్రాంతి తీసుకోండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Avoid crowded places"
+                ],
+                "hi": [
+                    "भीड़ से बचें"
+                ],
+                "te": [
+                    "గుంపులు ఉన్న చోట్లకు వెళ్లవద్దు"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Seasonal flu alerts"
+                ],
+                "hi": [
+                    "फ्लू चेतावनी"
+                ],
+                "te": [
+                    "ఫ్లూ హెచ్చరికలు"
+                ]
+            }
+        }
+    },
+    {
+        "key": "covid19",
+        "category": "Viral Infection",
+        "labels": {
+            "en": "COVID-19",
+            "hi": "कोविड-19",
+            "te": "కోవిడ్-19"
+        },
+        "reasons": {
+            "en": [
+                "Crowded places",
+                "Airborne transmission"
+            ],
+            "hi": [
+                "भीड़",
+                "हवा के माध्यम से फैलाव"
+            ],
+            "te": [
+                "గుంపులు",
+                "గాలిలో వ్యాప్తి"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "breathlessness",
+                "type": "boolean",
+                "weight": 1.0,
+                "label": {
+                    "en": "Breathlessness",
+                    "hi": "सांस लेने में तकलीफ",
+                    "te": "శ్వాస తీసుకోవడంలో ఇబ్బంది"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Wear mask"
+                ],
+                "hi": [
+                    "मास्क पहनें"
+                ],
+                "te": [
+                    "మాస్క్ ధరించండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Improve ventilation"
+                ],
+                "hi": [
+                    "हवादार वातावरण"
+                ],
+                "te": [
+                    "మంచి గాలి ప్రవాహం"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Hygiene awareness"
+                ],
+                "hi": [
+                    "स्वच्छता जागरूकता"
+                ],
+                "te": [
+                    "పరిశుభ్రత అవగాహన"
+                ]
+            }
+        }
+    },
+    {
+        "key": "tuberculosis",
+        "category": "Bacterial Infection",
+        "labels": {
+            "en": "Tuberculosis",
+            "hi": "टीबी",
+            "te": "క్షయవ్యాధి"
+        },
+        "reasons": {
+            "en": [
+                "Weak immunity",
+                "Close contact"
+            ],
+            "hi": [
+                "कम प्रतिरोधक शक्ति",
+                "नजदीकी संपर्क"
+            ],
+            "te": [
+                "తక్కువ రోగనిరోధక శక్తి",
+                "సన్నిహిత సంపర్కం"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "chronic_cough",
+                "type": "boolean",
+                "weight": 1.0,
+                "label": {
+                    "en": "Chronic Cough",
+                    "hi": "लगातार खांसी",
+                    "te": "దీర్ఘకాల దగ్గు"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Early testing"
+                ],
+                "hi": [
+                    "जल्दी जांच"
+                ],
+                "te": [
+                    "తొందరగా పరీక్షించుకోండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Proper ventilation"
+                ],
+                "hi": [
+                    "हवादार वातावरण"
+                ],
+                "te": [
+                    "మంచి గాలి ప్రవాహం"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "TB control programs"
+                ],
+                "hi": [
+                    "टीबी నియంత్రణ కార్యక్రమ"
+                ],
+                "te": [
+                    "క్షయ నియంత్రణ కార్యక్రమాలు"
+                ]
+            }
+        }
+    },
+    {
+        "key": "cholera",
+        "category": "Bacterial Infection",
+        "labels": {
+            "en": "Cholera",
+            "hi": "हैजा",
+            "te": "కాలరా"
+        },
+        "reasons": {
+            "en": [
+                "Unsafe water",
+                "Poor sanitation"
+            ],
+            "hi": [
+                "असुरक्षित पानी",
+                "खराब स्वच्छता"
+            ],
+            "te": [
+                "అసురక్షిత నీరు",
+                "తక్కువ పరిశుభ్రత"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "severe_diarrhea",
+                "type": "boolean",
+                "weight": 1.0,
+                "label": {
+                    "en": "Severe Diarrhea",
+                    "hi": "तेज दस्त",
+                    "te": "తీవ్ర విరేచనాలు"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Drink clean water"
+                ],
+                "hi": [
+                    "स्वच्छ पानी पिएं"
+                ],
+                "te": [
+                    "శుభ్రమైన నీరు త్రాగండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Water purification"
+                ],
+                "hi": [
+                    "पानी शुद्धिकरण"
+                ],
+                "te": [
+                    "నీటి శుద్ధి"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Sanitation drives"
+                ],
+                "hi": [
+                    "स्वच्छता अभियान"
+                ],
+                "te": [
+                    "పరిశుభ్రత కార్యక్రమాలు"
+                ]
+            }
+        }
+    },
+    {
+        "key": "food_poisoning",
+        "category": "Digestive Disorder",
+        "labels": {
+            "en": "Food Poisoning",
+            "hi": "फूड पॉइज़निंग",
+            "te": "ఆహార విషబాధ"
+        },
+        "reasons": {
+            "en": [
+                "Stale food",
+                "Improper storage"
+            ],
+            "hi": [
+                "बासी खाना",
+                "गलत भंडारण"
+            ],
+            "te": [
+                "పాత ఆహారం",
+                "తప్పు నిల్వ"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "vomiting",
+                "type": "boolean",
+                "weight": 1.0,
+                "label": {
+                    "en": "Vomiting",
+                    "hi": "उल्टी",
+                    "te": "వాంతులు"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Eat fresh food"
+                ],
+                "hi": [
+                    "ताजा भोजन करें"
+                ],
+                "te": [
+                    "తాజా ఆహారం తినండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Food safety checks"
+                ],
+                "hi": [
+                    "भोजन सुरक्षा जांच"
+                ],
+                "te": [
+                    "ఆహార భద్రత తనిఖీలు"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Food hygiene awareness"
+                ],
+                "hi": [
+                    "भोजन स्वच्छता जागरूकता"
+                ],
+                "te": [
+                    "ఆహార పరిశుభ్రత అవగాహన"
+                ]
+            }
+        }
+    },
+    {
+        "key": "dehydration",
+        "category": "Environmental",
+        "labels": {
+            "en": "Dehydration",
+            "hi": "निर्जलीकरण",
+            "te": "నీరు తక్కువ కావడం"
+        },
+        "reasons": {
+            "en": [
+                "Extreme heat",
+                "Low water intake"
+            ],
+            "hi": [
+                "अधिक गर्मी",
+                "कम पानी पीना"
+            ],
+            "te": [
+                "ఎక్కువ వేడి",
+                "నీరు తక్కువ త్రాగడం"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "dry_mouth",
+                "type": "boolean",
+                "weight": 0.8,
+                "label": {
+                    "en": "Dry Mouth",
+                    "hi": "सूखा मुँह",
+                    "te": "నోరు ఎండిపోవడం"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Drink water frequently"
+                ],
+                "hi": [
+                    "तरచుగా నీరు త్రాగండి"
+                ],
+                "te": [
+                    "తరచూ నీరు త్రాగండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Access to drinking water"
+                ],
+                "hi": [
+                    "पीने का पानी उपलब्धता"
+                ],
+                "te": [
+                    "త్రాగునీరు అందుబాటు"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Summer hydration alerts"
+                ],
+                "hi": [
+                    "गर्मी में पानी चेतावनी"
+                ],
+                "te": [
+                    "వేసవి నీటి హెచ్చరికలు"
+                ]
+            }
+        }
+    },
+    {
+        "key": "bronchitis",
+        "category": "Respiratory",
+        "labels": {
+            "en": "Bronchitis",
+            "hi": "ब्रोंकाइटिस",
+            "te": "బ్రాంకైటిస్"
+        },
+        "reasons": {
+            "en": [
+                "Smoking",
+                "Air pollution"
+            ],
+            "hi": [
+                "धूम्रपान",
+                "वायु प्रदूषण"
+            ],
+            "te": [
+                "పొగతాగడం",
+                "గాలి కాలుష్యం"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "persistent_cough",
+                "type": "boolean",
+                "weight": 1.0,
+                "label": {
+                    "en": "Persistent Cough",
+                    "hi": "लगातार खांसी",
+                    "te": "తరచూ దగ్గు"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Avoid smoking"
+                ],
+                "hi": [
+                    "धूम्रपान छोड़ें"
+                ],
+                "te": [
+                    "పొగతాగడం మానండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Clean air environment"
+                ],
+                "hi": [
+                    "स्वच्छ हवा వాతావరణం"
+                ],
+                "te": [
+                    "శుభ్రమైన గాలి వాతావరణం"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Anti-smoking campaigns"
+                ],
+                "hi": [
+                    "धूम्रपान विरोधी अभियान"
+                ],
+                "te": [
+                    "పొగతాగడం వ్యతిరేక ప్రచారాలు"
+                ]
+            }
+        }
+    },
+    {
+        "key": "copd",
+        "category": "Respiratory",
+        "labels": {
+            "en": "COPD",
+            "hi": "सीओपीडी",
+            "te": "సీఓపీడీ"
+        },
+        "reasons": {
+            "en": [
+                "Long-term smoking",
+                "Industrial pollution"
+            ],
+            "hi": [
+                "लंबे समय तक धूम्रपान",
+                "औद्योगिक प्रदूषण"
+            ],
+            "te": [
+                "దీర్ఘకాల పొగతాగడం",
+                "పరిశ్రమల కాలుష్యం"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "chronic_breathing_issue",
+                "type": "boolean",
+                "weight": 1.0,
+                "label": {
+                    "en": "Chronic Breathing Problem",
+                    "hi": "पुरानी सांस की समस्या",
+                    "te": "దీర్ఘకాల శ్వాస సమస్య"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Stop smoking"
+                ],
+                "hi": [
+                    "धूम्रपान बंद करें"
+                ],
+                "te": [
+                    "పొగతాగడం పూర్తిగా మానండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Reduce air pollution"
+                ],
+                "hi": [
+                    "वायु प्रदूषण घटाएं"
+                ],
+                "te": [
+                    "గాలి కాలుష్యం తగ్గించండి"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Lung health awareness"
+                ],
+                "hi": [
+                    "फेफड़े स्वास्थ्य जागरूकता"
+                ],
+                "te": [
+                    " ఊపిరితిత్తుల ఆరోగ్య అవగాహన"
+                ]
+            }
+        }
+    },
+    {
+        "key": "sinusitis",
+        "category": "ENT",
+        "labels": {
+            "en": "Sinusitis",
+            "hi": "साइनस",
+            "te": "సైనసైటిస్"
+        },
+        "reasons": {
+            "en": [
+                "Dust allergy",
+                "Cold infection"
+            ],
+            "hi": [
+                "धूल एलर्जी",
+                "सर्दी संक्रमण"
+            ],
+            "te": [
+                "ధూళి అలర్జీ",
+                "జలుబు ఇన్ఫెక్షన్"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "facial_pain",
+                "type": "boolean",
+                "weight": 0.8,
+                "label": {
+                    "en": "Facial Pain",
+                    "hi": "चेहरे में दर्द",
+                    "te": "ముఖ నొప్పి"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Steam inhalation"
+                ],
+                "hi": [
+                    "भाप लें"
+                ],
+                "te": [
+                    "ఆవిరి తీసుకోండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Avoid dust"
+                ],
+                "hi": [
+                    "धूल से बचें"
+                ],
+                "te": [
+                    "ధూళిని తప్పించండి"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "ENT health awareness"
+                ],
+                "hi": [
+                    "ईएनटी स्वास्थ्य जागरूकता"
+                ],
+                "te": [
+                    "ఈఎన్టీ ఆరోగ్య అవగాహన"
+                ]
+            }
+        }
+    },
+    {
+        "key": "allergic_rhinitis",
+        "category": "ENT",
+        "labels": {
+            "en": "Allergic Rhinitis",
+            "hi": "एलर्जिक राइनाइटिस",
+            "te": "అలర్జిక్ రైనైటిస్"
+        },
+        "reasons": {
+            "en": [
+                "Pollen",
+                "Dust"
+            ],
+            "hi": [
+                "पराग",
+                "धूल"
+            ],
+            "te": [
+                "పూల ధూళి",
+                "ధూళి"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "sneezing",
+                "type": "boolean",
+                "weight": 0.8,
+                "label": {
+                    "en": "Sneezing",
+                    "hi": "छींक",
+                    "te": "తుమ్ములు"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Avoid allergens"
+                ],
+                "hi": [
+                    "एलर्जी से बचें"
+                ],
+                "te": [
+                    "అలర్జీ కారకాలను తప్పించండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Clean surroundings"
+                ],
+                "hi": [
+                    "आसपास साफ रखें"
+                ],
+                "te": [
+                    "చుట్టూ శుభ్రంగా ఉంచండి"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Allergy awareness"
+                ],
+                "hi": [
+                    "एलर्जी जागरूकता"
+                ],
+                "te": [
+                    "అలర్జీ అవగాహన"
+                ]
+            }
+        }
+    },
+    {
+        "key": "migraine",
+        "category": "Neurological",
+        "labels": {
+            "en": "Migraine",
+            "hi": "माइग्रेन",
+            "te": "మైగ్రేన్"
+        },
+        "reasons": {
+            "en": [
+                "Stress",
+                "Sleep disturbance"
+            ],
+            "hi": [
+                "तनाव",
+                "नींद की कमी"
+            ],
+            "te": [
+                "మానసిక ఒత్తిడి",
+                "నిద్ర లోపం"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "severe_headache",
+                "type": "boolean",
+                "weight": 1.0,
+                "label": {
+                    "en": "Severe Headache",
+                    "hi": "तेज తలనొప్పి",
+                    "te": "తీవ్ర తలనొప్పి"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Manage stress",
+                    "Adequate sleep"
+                ],
+                "hi": [
+                    "तनाव कम करें",
+                    "पूरी नींद लें"
+                ],
+                "te": [
+                    "ఒత్తిడి తగ్గించండి",
+                    "సరైన నిద్ర పొందండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Reduce noise"
+                ],
+                "hi": [
+                    "शोर कम करें"
+                ],
+                "te": [
+                    "శబ్దం తగ్గించండి"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Mental wellness programs"
+                ],
+                "hi": [
+                    "मानसिक स्वास्थ्य कार्यक्रम"
+                ],
+                "te": [
+                    "మానసిక ఆరోగ్య కార్యక్రమాలు"
+                ]
+            }
+        }
+    },
+    {
+        "key": "diabetes_type_2",
+        "category": "Lifestyle Disorder",
+        "labels": {
+            "en": "Diabetes Type 2",
+            "hi": "टाइप 2 डायबिटीज",
+            "te": "టైప్ 2 డయాబెటిస్"
+        },
+        "reasons": {
+            "en": [
+                "Unhealthy diet",
+                "Physical inactivity"
+            ],
+            "hi": [
+                "गलत आहार",
+                "व्यायाम की कमी"
+            ],
+            "te": [
+                "అనారోగ్య ఆహారం",
+                "వ్యాయామం లేకపోవడం"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "frequent_urination",
+                "type": "boolean",
+                "weight": 0.8,
+                "label": {
+                    "en": "Frequent Urination",
+                    "hi": "बार-बार पेशाब",
+                    "te": "తరచూ మూత్ర విసర్జన"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Healthy diet",
+                    "Regular exercise"
+                ],
+                "hi": [
+                    "स्वस्थ आहार",
+                    "नियमित व्यायाम"
+                ],
+                "te": [
+                    "ఆరోగ్యకరమైన ఆహారం",
+                    "నియమిత వ్యాయామం"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Access to healthy food"
+                ],
+                "hi": [
+                    "स्वस्थ भोजन उपलब्धता"
+                ],
+                "te": [
+                    "ఆరోగ్య ఆహారం అందుబాటు"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "Lifestyle awareness"
+                ],
+                "hi": [
+                    "जीवनशैली जागरूकता"
+                ],
+                "te": [
+                    "జీవనశైలి అవగాహన"
+                ]
+            }
+        }
+    },
+    {
+        "key": "hypertension",
+        "category": "Lifestyle Disorder",
+        "labels": {
+            "en": "Hypertension",
+            "hi": "उच्च रक्तचाप",
+            "te": "అధిక రక్తపోటు"
+        },
+        "reasons": {
+            "en": [
+                "Stress",
+                "High salt intake"
+            ],
+            "hi": [
+                "तनाव",
+                "ज्यादा नमक"
+            ],
+            "te": [
+                "ఒత్తిడి",
+                "అధిక ఉప్పు"
+            ]
+        },
+        "symptoms": [
+            {
+                "key": "dizziness",
+                "type": "boolean",
+                "weight": 0.6,
+                "label": {
+                    "en": "Dizziness",
+                    "hi": "चक्कर",
+                    "te": "తల తిరగడం"
+                }
+            }
+        ],
+        "suggestions": {
+            "personal": {
+                "en": [
+                    "Reduce salt",
+                    "Manage stress"
+                ],
+                "hi": [
+                    "नमक कम करें",
+                    "तनाव తగ్గाएं"
+                ],
+                "te": [
+                    "ఉప్పు తగ్గించండి",
+                    "ఒత్తిడి తగ్గించండి"
+                ]
+            },
+            "environmental": {
+                "en": [
+                    "Calm work environment"
+                ],
+                "hi": [
+                    "शांत कार्य वातावरण"
+                ],
+                "te": [
+                    "శాంతమైన పని వాతావరణం"
+                ]
+            },
+            "public_awareness": {
+                "en": [
+                    "BP check camps"
+                ],
+                "hi": [
+                    "बीपी जांच शिविर"
+                ],
+                "te": [
+                    "బీపీ పరీక్ష శిబిరాలు"
+                ]
+            }
+        }
+    }
+]

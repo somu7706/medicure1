@@ -1,0 +1,862 @@
+{
+    "Kurnool": {
+        "district": "Kurnool",
+        "totalHospitals": 20,
+        "hospitals": [
+            {
+                "name": "KIMS Hospitals",
+                "phone": "8518352000"
+            },
+            {
+                "name": "Medicover Hospitals",
+                "phone": "4068334455"
+            },
+            {
+                "name": "OMNI Hospitals",
+                "phone": "8518277188"
+            },
+            {
+                "name": "Aarka Hospitals",
+                "phone": "8958938989"
+            },
+            {
+                "name": "VR Multi Speciality Hospital",
+                "phone": "8332844455"
+            },
+            {
+                "name": "SJ Hospital",
+                "phone": "8518241122"
+            },
+            {
+                "name": "Ameelio Hospital",
+                "phone": "9642055566"
+            },
+            {
+                "name": "Ashwini Hospital",
+                "phone": "8374775867"
+            },
+            {
+                "name": "KPS Medicare",
+                "phone": "9346035363"
+            },
+            {
+                "name": "Gemcare Kamineni",
+                "phone": "7038870388"
+            },
+            {
+                "name": "RR Hospital",
+                "phone": "8518225414"
+            },
+            {
+                "name": "KM Hospital",
+                "phone": "8518241887"
+            },
+            {
+                "name": "Gowri Gopal Hospital",
+                "phone": "8518255499"
+            },
+            {
+                "name": "Government General Hospital",
+                "phone": "8518255422"
+            },
+            {
+                "name": "Kurnool Heart Hospital",
+                "phone": "9441094410"
+            },
+            {
+                "name": "KGN Hospital",
+                "phone": "8518243344"
+            },
+            {
+                "name": "SGR Hospital",
+                "phone": "9154086729"
+            },
+            {
+                "name": "GNR Hospital",
+                "phone": "9705213191"
+            },
+            {
+                "name": "Sai Krishna Hospital",
+                "phone": "8518267788"
+            },
+            {
+                "name": "Sri Lakshmi Hospital",
+                "phone": "8518278899"
+            }
+        ]
+    },
+    "Nellore": {
+        "district": "Nellore",
+        "totalHospitals": 20,
+        "hospitals": [
+            {
+                "name": "Narayana Medical College",
+                "phone": "8612317963"
+            },
+            {
+                "name": "Ramesh Hospitals",
+                "phone": "8612349999"
+            },
+            {
+                "name": "Simhapuri Hospital",
+                "phone": "8612322333"
+            },
+            {
+                "name": "Padmavathi Hospital",
+                "phone": "8612333444"
+            },
+            {
+                "name": "Apollo Speciality Hospital",
+                "phone": "8612345678"
+            },
+            {
+                "name": "Vasan Eye Care",
+                "phone": "18602667788"
+            },
+            {
+                "name": "Sai Krishna Hospital",
+                "phone": "9440123456"
+            },
+            {
+                "name": "Sri Lakshmi Nursing Home",
+                "phone": "8612321122"
+            },
+            {
+                "name": "Medicover Hospital",
+                "phone": "8616667777"
+            },
+            {
+                "name": "Jayabharath Hospital",
+                "phone": "8612327788"
+            },
+            {
+                "name": "Dr Agarwal Eye Hospital",
+                "phone": "9885750000"
+            },
+            {
+                "name": "Sri Ram Hospital",
+                "phone": "8612341122"
+            },
+            {
+                "name": "Prasad Hospital",
+                "phone": "8612329988"
+            },
+            {
+                "name": "Government General Hospital",
+                "phone": "8612325666"
+            },
+            {
+                "name": "Lotus Hospital",
+                "phone": "8612356677"
+            },
+            {
+                "name": "New Life Hospital",
+                "phone": "8612334455"
+            },
+            {
+                "name": "Care Hospital",
+                "phone": "8616660000"
+            },
+            {
+                "name": "Trust Hospital",
+                "phone": "8612342211"
+            },
+            {
+                "name": "City Hospital",
+                "phone": "8612323344"
+            },
+            {
+                "name": "Mother & Child Hospital",
+                "phone": "8612335566"
+            }
+        ]
+    },
+    "Guntur": {
+        "district": "Guntur",
+        "totalHospitals": 20,
+        "hospitals": [
+            {
+                "name": "GGH Guntur",
+                "phone": "8632223333"
+            },
+            {
+                "name": "NRI General Hospital",
+                "phone": "8632299000"
+            },
+            {
+                "name": "Ramesh Hospitals",
+                "phone": "8632345678"
+            },
+            {
+                "name": "KIMS Ushalakshmi",
+                "phone": "8632337777"
+            },
+            {
+                "name": "Apollo Hospitals",
+                "phone": "8636661066"
+            },
+            {
+                "name": "Care Hospitals",
+                "phone": "8633040000"
+            },
+            {
+                "name": "Aster Prime",
+                "phone": "8636667777"
+            },
+            {
+                "name": "Sai Super Speciality Hospital",
+                "phone": "8632356677"
+            },
+            {
+                "name": "Trust Hospital",
+                "phone": "8632349988"
+            },
+            {
+                "name": "Manipal Hospital",
+                "phone": "8632456789"
+            },
+            {
+                "name": "New Life Hospital",
+                "phone": "8632322211"
+            },
+            {
+                "name": "Lotus Hospital",
+                "phone": "8632344455"
+            },
+            {
+                "name": "City Hospital",
+                "phone": "8632323344"
+            },
+            {
+                "name": "Mother Teresa Hospital",
+                "phone": "8632355566"
+            },
+            {
+                "name": "Life Line Hospital",
+                "phone": "8632337788"
+            },
+            {
+                "name": "Sri Venkateswara Hospital",
+                "phone": "8632346677"
+            },
+            {
+                "name": "Omni Hospital",
+                "phone": "8636660000"
+            },
+            {
+                "name": "Medicover Hospital",
+                "phone": "8633520000"
+            },
+            {
+                "name": "Sunrise Hospital",
+                "phone": "8632334455"
+            },
+            {
+                "name": "Sai Ortho Care",
+                "phone": "8632328899"
+            }
+        ]
+    },
+    "Visakhapatnam": {
+        "district": "Visakhapatnam",
+        "totalHospitals": 20,
+        "hospitals": [
+            {
+                "name": "King George Hospital",
+                "phone": "8912564891"
+            },
+            {
+                "name": "Apollo Hospitals",
+                "phone": "8912727272"
+            },
+            {
+                "name": "Seven Hills Hospital",
+                "phone": "8916677777"
+            },
+            {
+                "name": "Care Hospitals",
+                "phone": "8913040000"
+            },
+            {
+                "name": "Medicover Hospitals",
+                "phone": "8913520000"
+            },
+            {
+                "name": "Omni RK Hospital",
+                "phone": "8916660000"
+            },
+            {
+                "name": "Gitam Institute Hospital",
+                "phone": "8912840500"
+            },
+            {
+                "name": "Trust Hospital",
+                "phone": "8912349988"
+            },
+            {
+                "name": "Lotus Hospital",
+                "phone": "8912345566"
+            },
+            {
+                "name": "Sunrise Hospital",
+                "phone": "8912334455"
+            },
+            {
+                "name": "Life Line Hospital",
+                "phone": "8912337788"
+            },
+            {
+                "name": "Aster Prime",
+                "phone": "8916667777"
+            },
+            {
+                "name": "New Life Hospital",
+                "phone": "8912322211"
+            },
+            {
+                "name": "City Hospital",
+                "phone": "8912323344"
+            },
+            {
+                "name": "Mother Teresa Hospital",
+                "phone": "8912355566"
+            },
+            {
+                "name": "Sri Ram Hospital",
+                "phone": "8912341122"
+            },
+            {
+                "name": "Vijaya Hospital",
+                "phone": "8912346677"
+            },
+            {
+                "name": "Care Clinic",
+                "phone": "8913041111"
+            },
+            {
+                "name": "Apollo Clinic",
+                "phone": "8916661066"
+            },
+            {
+                "name": "Mediplus Hospital",
+                "phone": "8912338899"
+            }
+        ]
+    },
+    "Anantapur": {
+        "district": "Anantapur",
+        "totalHospitals": 20,
+        "hospitals": [
+            {
+                "name": "Government General Hospital",
+                "phone": "8554273000"
+            },
+            {
+                "name": "Sanjeevani Hospital",
+                "phone": "9440567890"
+            },
+            {
+                "name": "Kalyani Hospital",
+                "phone": "8554222333"
+            },
+            {
+                "name": "Srinivasa Hospital",
+                "phone": "9849012345"
+            },
+            {
+                "name": "RDT Hospital Bathalapalli",
+                "phone": "8559241111"
+            },
+            {
+                "name": "Sai Super Speciality Hospital",
+                "phone": "8554234567"
+            },
+            {
+                "name": "Vijaya Hospital",
+                "phone": "8554246677"
+            },
+            {
+                "name": "Life Line Hospital",
+                "phone": "8554237788"
+            },
+            {
+                "name": "Lotus Hospital",
+                "phone": "8554235566"
+            },
+            {
+                "name": "New Life Hospital",
+                "phone": "8554222211"
+            },
+            {
+                "name": "City Hospital",
+                "phone": "8554223344"
+            },
+            {
+                "name": "Mother Teresa Hospital",
+                "phone": "8554235566"
+            },
+            {
+                "name": "Sri Ram Hospital",
+                "phone": "8554241122"
+            },
+            {
+                "name": "Care Hospital",
+                "phone": "8554304000"
+            },
+            {
+                "name": "Medicover Hospital",
+                "phone": "8554352000"
+            },
+            {
+                "name": "Sai Ortho Care",
+                "phone": "8554228899"
+            },
+            {
+                "name": "Omni Hospital",
+                "phone": "8554666000"
+            },
+            {
+                "name": "Aayush Hospital",
+                "phone": "8554245566"
+            },
+            {
+                "name": "Children Care Hospital",
+                "phone": "8554236677"
+            },
+            {
+                "name": "Sri Lakshmi Hospital",
+                "phone": "8554247788"
+            }
+        ]
+    },
+    "Chittoor": {
+        "district": "Chittoor",
+        "totalHospitals": 20,
+        "hospitals": [
+            {
+                "name": "Government General Hospital",
+                "phone": "8572234567"
+            },
+            {
+                "name": "Apollo Hospital",
+                "phone": "8572666106"
+            },
+            {
+                "name": "RVS Hospital",
+                "phone": "9440256789"
+            },
+            {
+                "name": "Trust Hospital",
+                "phone": "8572234999"
+            },
+            {
+                "name": "Lotus Hospital",
+                "phone": "8572235566"
+            },
+            {
+                "name": "Sunrise Hospital",
+                "phone": "8572234455"
+            },
+            {
+                "name": "Life Line Hospital",
+                "phone": "8572237788"
+            },
+            {
+                "name": "New Life Hospital",
+                "phone": "8572222211"
+            },
+            {
+                "name": "City Hospital",
+                "phone": "8572223344"
+            },
+            {
+                "name": "Mother Teresa Hospital",
+                "phone": "8572235566"
+            },
+            {
+                "name": "Sri Ram Hospital",
+                "phone": "8572241122"
+            },
+            {
+                "name": "Vijaya Hospital",
+                "phone": "8572246677"
+            },
+            {
+                "name": "Care Hospital",
+                "phone": "8572304000"
+            },
+            {
+                "name": "Medicover Hospital",
+                "phone": "8572352000"
+            },
+            {
+                "name": "Sai Ortho Care",
+                "phone": "8572228899"
+            },
+            {
+                "name": "Omni Hospital",
+                "phone": "8572666000"
+            },
+            {
+                "name": "Aayush Hospital",
+                "phone": "8572245566"
+            },
+            {
+                "name": "Children Hospital",
+                "phone": "8572236677"
+            },
+            {
+                "name": "Prasad Hospital",
+                "phone": "8572239988"
+            },
+            {
+                "name": "Sri Lakshmi Hospital",
+                "phone": "8572247788"
+            }
+        ]
+    },
+    "Kadapa": {
+        "district": "Kadapa",
+        "totalHospitals": 20,
+        "hospitals": [
+            {
+                "name": "Government General Hospital",
+                "phone": "8562222444"
+            },
+            {
+                "name": "RIMS Kadapa",
+                "phone": "8562245678"
+            },
+            {
+                "name": "Apollo Reach Hospital",
+                "phone": "8562666777"
+            },
+            {
+                "name": "FIMS Hospital",
+                "phone": "9440345678"
+            },
+            {
+                "name": "Trust Hospital",
+                "phone": "8562234999"
+            },
+            {
+                "name": "Lotus Hospital",
+                "phone": "8562235566"
+            },
+            {
+                "name": "Sunrise Hospital",
+                "phone": "8562234455"
+            },
+            {
+                "name": "Life Line Hospital",
+                "phone": "8562237788"
+            },
+            {
+                "name": "New Life Hospital",
+                "phone": "8562222211"
+            },
+            {
+                "name": "City Hospital",
+                "phone": "8562223344"
+            },
+            {
+                "name": "Mother Teresa Hospital",
+                "phone": "8562235566"
+            },
+            {
+                "name": "Sri Ram Hospital",
+                "phone": "8562241122"
+            },
+            {
+                "name": "Vijaya Hospital",
+                "phone": "8562246677"
+            },
+            {
+                "name": "Care Hospital",
+                "phone": "8562304000"
+            },
+            {
+                "name": "Medicover Hospital",
+                "phone": "8562352000"
+            },
+            {
+                "name": "Sai Ortho Care",
+                "phone": "8562228899"
+            },
+            {
+                "name": "Omni Hospital",
+                "phone": "8562666000"
+            },
+            {
+                "name": "Aayush Hospital",
+                "phone": "8562245566"
+            },
+            {
+                "name": "Children Hospital",
+                "phone": "8562236677"
+            },
+            {
+                "name": "Prasad Hospital",
+                "phone": "8562239988"
+            }
+        ]
+    },
+    "Prakasam": {
+        "district": "Prakasam",
+        "totalHospitals": 20,
+        "hospitals": [
+            {
+                "name": "Government General Hospital Ongole",
+                "phone": "8592233444"
+            },
+            {
+                "name": "Ramesh Hospitals Ongole",
+                "phone": "8592234999"
+            },
+            {
+                "name": "Apollo Clinic Ongole",
+                "phone": "8592666106"
+            },
+            {
+                "name": "Medicover Hospital Ongole",
+                "phone": "8592352000"
+            },
+            {
+                "name": "Sai Super Speciality Hospital",
+                "phone": "8592234567"
+            },
+            {
+                "name": "Lotus Hospital",
+                "phone": "8592235566"
+            },
+            {
+                "name": "Sunrise Hospital",
+                "phone": "8592234455"
+            },
+            {
+                "name": "Life Line Hospital",
+                "phone": "8592237788"
+            },
+            {
+                "name": "New Life Hospital",
+                "phone": "8592222211"
+            },
+            {
+                "name": "City Hospital",
+                "phone": "8592223344"
+            },
+            {
+                "name": "Mother Teresa Hospital",
+                "phone": "8592235566"
+            },
+            {
+                "name": "Sri Ram Hospital",
+                "phone": "8592241122"
+            },
+            {
+                "name": "Vijaya Hospital",
+                "phone": "8592246677"
+            },
+            {
+                "name": "Care Hospital",
+                "phone": "8592304000"
+            },
+            {
+                "name": "Omni Hospital",
+                "phone": "8592666000"
+            },
+            {
+                "name": "Aayush Hospital",
+                "phone": "8592245566"
+            },
+            {
+                "name": "Children Care Hospital",
+                "phone": "8592236677"
+            },
+            {
+                "name": "Prasad Hospital",
+                "phone": "8592239988"
+            },
+            {
+                "name": "Sri Lakshmi Hospital",
+                "phone": "8592247788"
+            },
+            {
+                "name": "Sai Ortho Care",
+                "phone": "8592228899"
+            }
+        ]
+    },
+    "WestGodavari": {
+        "district": "West Godavari",
+        "totalHospitals": 20,
+        "hospitals": [
+            {
+                "name": "Government General Hospital Eluru",
+                "phone": "8812222333"
+            },
+            {
+                "name": "ASRAM Hospital",
+                "phone": "8812230101"
+            },
+            {
+                "name": "Medicover Hospital Eluru",
+                "phone": "8812352000"
+            },
+            {
+                "name": "Apollo Clinic Eluru",
+                "phone": "8812666106"
+            },
+            {
+                "name": "Ramesh Hospitals",
+                "phone": "8812349999"
+            },
+            {
+                "name": "Lotus Hospital",
+                "phone": "8812235566"
+            },
+            {
+                "name": "Sunrise Hospital",
+                "phone": "8812234455"
+            },
+            {
+                "name": "Life Line Hospital",
+                "phone": "8812237788"
+            },
+            {
+                "name": "New Life Hospital",
+                "phone": "8812222211"
+            },
+            {
+                "name": "City Hospital",
+                "phone": "8812223344"
+            },
+            {
+                "name": "Mother Teresa Hospital",
+                "phone": "8812235566"
+            },
+            {
+                "name": "Sri Ram Hospital",
+                "phone": "8812241122"
+            },
+            {
+                "name": "Vijaya Hospital",
+                "phone": "8812246677"
+            },
+            {
+                "name": "Care Hospital",
+                "phone": "8812304000"
+            },
+            {
+                "name": "Omni Hospital",
+                "phone": "8812666000"
+            },
+            {
+                "name": "Aayush Hospital",
+                "phone": "8812245566"
+            },
+            {
+                "name": "Children Care Hospital",
+                "phone": "8812236677"
+            },
+            {
+                "name": "Prasad Hospital",
+                "phone": "8812239988"
+            },
+            {
+                "name": "Sri Lakshmi Hospital",
+                "phone": "8812247788"
+            },
+            {
+                "name": "Sai Ortho Care",
+                "phone": "8812228899"
+            }
+        ]
+    },
+    "EastGodavari": {
+        "district": "East Godavari",
+        "totalHospitals": 20,
+        "hospitals": [
+            {
+                "name": "Government General Hospital Kakinada",
+                "phone": "8842366666"
+            },
+            {
+                "name": "Apollo Hospitals Kakinada",
+                "phone": "8846661066"
+            },
+            {
+                "name": "Medicover Hospital Kakinada",
+                "phone": "8843520000"
+            },
+            {
+                "name": "Ramesh Hospitals",
+                "phone": "8842349999"
+            },
+            {
+                "name": "Trust Hospital",
+                "phone": "8842342211"
+            },
+            {
+                "name": "Lotus Hospital",
+                "phone": "8842345566"
+            },
+            {
+                "name": "Sunrise Hospital",
+                "phone": "8842334455"
+            },
+            {
+                "name": "Life Line Hospital",
+                "phone": "8842337788"
+            },
+            {
+                "name": "New Life Hospital",
+                "phone": "8842322211"
+            },
+            {
+                "name": "City Hospital",
+                "phone": "8842323344"
+            },
+            {
+                "name": "Mother Teresa Hospital",
+                "phone": "8842355566"
+            },
+            {
+                "name": "Sri Ram Hospital",
+                "phone": "8842341122"
+            },
+            {
+                "name": "Vijaya Hospital",
+                "phone": "8842346677"
+            },
+            {
+                "name": "Care Hospital",
+                "phone": "8842304000"
+            },
+            {
+                "name": "Omni Hospital",
+                "phone": "8842666000"
+            },
+            {
+                "name": "Aayush Hospital",
+                "phone": "8842345566"
+            },
+            {
+                "name": "Children Care Hospital",
+                "phone": "8842336677"
+            },
+            {
+                "name": "Prasad Hospital",
+                "phone": "8842339988"
+            },
+            {
+                "name": "Sri Lakshmi Hospital",
+                "phone": "8842347788"
+            },
+            {
+                "name": "Sai Ortho Care",
+                "phone": "8842328899"
+            }
+        ]
+    }
+}

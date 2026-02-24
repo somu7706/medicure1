@@ -1,0 +1,332 @@
+{
+    "Kurnool": {
+        "district": "Kurnool",
+        "totalPharmacies": 15,
+        "pharmacies": [
+            {
+                "name": "Apollo Pharmacy Kurnool",
+                "phone": "8518223344"
+            },
+            {
+                "name": "MedPlus Kurnool",
+                "phone": "8518245566"
+            },
+            {
+                "name": "Sri Lakshmi Medicals",
+                "phone": "8518267788"
+            },
+            {
+                "name": "Wellness Forever",
+                "phone": "8518278899"
+            },
+            {
+                "name": "Netmeds Pharmacy",
+                "phone": "8518290011"
+            },
+            {
+                "name": "Vijaya Medical Store",
+                "phone": "8518221122"
+            },
+            {
+                "name": "Universal Medicals",
+                "phone": "8518243322"
+            },
+            {
+                "name": "Healthy Hearts Pharmacy",
+                "phone": "8518256677"
+            },
+            {
+                "name": "New Life Medicals",
+                "phone": "8518234455"
+            },
+            {
+                "name": "Siva Pharmacy",
+                "phone": "8518232233"
+            },
+            {
+                "name": "City Medicals",
+                "phone": "8518241100"
+            },
+            {
+                "name": "Triumph Pharma",
+                "phone": "8518255566"
+            },
+            {
+                "name": "Standard Medicals",
+                "phone": "8518224422"
+            },
+            {
+                "name": "Reddy Medicals",
+                "phone": "8518236677"
+            },
+            {
+                "name": "Global Pharmacy",
+                "phone": "8518247788"
+            }
+        ]
+    },
+    "Nellore": {
+        "district": "Nellore",
+        "totalPharmacies": 15,
+        "pharmacies": [
+            {
+                "name": "Apollo Pharmacy Nellore",
+                "phone": "8612345566"
+            },
+            {
+                "name": "MedPlus Nellore",
+                "phone": "8612327788"
+            },
+            {
+                "name": "Sri Lakshmi Medicals",
+                "phone": "8612311122"
+            },
+            {
+                "name": "Wellness Forever",
+                "phone": "8612334455"
+            },
+            {
+                "name": "Netmeds Pharmacy",
+                "phone": "8612345678"
+            },
+            {
+                "name": "Sai Krishna Medicals",
+                "phone": "8612323344"
+            },
+            {
+                "name": "Metro Pharmacy",
+                "phone": "8612341122"
+            },
+            {
+                "name": "Healthy Living Pharmacy",
+                "phone": "8612356677"
+            },
+            {
+                "name": "Mother Care Medicals",
+                "phone": "8612335566"
+            },
+            {
+                "name": "Siva Medical Store",
+                "phone": "8612329988"
+            },
+            {
+                "name": "City Medicals Nellore",
+                "phone": "8612325666"
+            },
+            {
+                "name": "Triumph Pharma",
+                "phone": "8612342211"
+            },
+            {
+                "name": "Standard Medicals",
+                "phone": "8612317963"
+            },
+            {
+                "name": "Reddy Medicals",
+                "phone": "8612322333"
+            },
+            {
+                "name": "Global Pharmacy",
+                "phone": "8612333444"
+            }
+        ]
+    },
+    "Guntur": {
+        "district": "Guntur",
+        "totalPharmacies": 15,
+        "pharmacies": [
+            {
+                "name": "Apollo Pharmacy Guntur",
+                "phone": "8632345566"
+            },
+            {
+                "name": "MedPlus Guntur",
+                "phone": "8632327788"
+            },
+            {
+                "name": "Sri Lakshmi Medicals",
+                "phone": "8632311122"
+            },
+            {
+                "name": "Wellness Forever",
+                "phone": "8632334455"
+            },
+            {
+                "name": "Netmeds Pharmacy",
+                "phone": "8632345678"
+            },
+            {
+                "name": "Sai Krishna Medicals",
+                "phone": "8632323344"
+            },
+            {
+                "name": "Metro Pharmacy",
+                "phone": "8632341122"
+            },
+            {
+                "name": "Healthy Living Pharmacy",
+                "phone": "8632356677"
+            },
+            {
+                "name": "Mother Care Medicals",
+                "phone": "8632335566"
+            },
+            {
+                "name": "Siva Medical Store",
+                "phone": "8632329988"
+            },
+            {
+                "name": "City Medicals Guntur",
+                "phone": "8632325666"
+            },
+            {
+                "name": "Triumph Pharma",
+                "phone": "8632342211"
+            },
+            {
+                "name": "Standard Medicals",
+                "phone": "8632317963"
+            },
+            {
+                "name": "Reddy Medicals",
+                "phone": "8632223333"
+            },
+            {
+                "name": "Global Pharmacy",
+                "phone": "8632333444"
+            }
+        ]
+    },
+    "Visakhapatnam": {
+        "district": "Visakhapatnam",
+        "totalPharmacies": 15,
+        "pharmacies": [
+            {
+                "name": "Apollo Pharmacy Vizag",
+                "phone": "8912345566"
+            },
+            {
+                "name": "MedPlus Vizag",
+                "phone": "8912327788"
+            },
+            {
+                "name": "Sri Lakshmi Medicals",
+                "phone": "8912311122"
+            },
+            {
+                "name": "Wellness Forever",
+                "phone": "8912334455"
+            },
+            {
+                "name": "Netmeds Pharmacy",
+                "phone": "8912345678"
+            },
+            {
+                "name": "Sai Krishna Medicals",
+                "phone": "8912323344"
+            },
+            {
+                "name": "Metro Pharmacy",
+                "phone": "8912341122"
+            },
+            {
+                "name": "Healthy Living Pharmacy",
+                "phone": "8912356677"
+            },
+            {
+                "name": "Mother Care Medicals",
+                "phone": "8912335566"
+            },
+            {
+                "name": "Siva Medical Store",
+                "phone": "8912329988"
+            },
+            {
+                "name": "City Medicals Vizag",
+                "phone": "8912325666"
+            },
+            {
+                "name": "Triumph Pharma",
+                "phone": "8912342211"
+            },
+            {
+                "name": "Standard Medicals",
+                "phone": "8912317963"
+            },
+            {
+                "name": "Reddy Medicals",
+                "phone": "8912322333"
+            },
+            {
+                "name": "Global Pharmacy",
+                "phone": "8912333444"
+            }
+        ]
+    },
+    "Anantapur": {
+        "district": "Anantapur",
+        "totalPharmacies": 15,
+        "pharmacies": [
+            {
+                "name": "Apollo Pharmacy Anantapur",
+                "phone": "8554234566"
+            },
+            {
+                "name": "MedPlus Anantapur",
+                "phone": "8554227788"
+            },
+            {
+                "name": "Sri Lakshmi Medicals",
+                "phone": "8554211122"
+            },
+            {
+                "name": "Wellness Forever",
+                "phone": "8554234455"
+            },
+            {
+                "name": "Netmeds Pharmacy",
+                "phone": "8554245678"
+            },
+            {
+                "name": "Sai Krishna Medicals",
+                "phone": "8554223344"
+            },
+            {
+                "name": "Metro Pharmacy",
+                "phone": "8554241122"
+            },
+            {
+                "name": "Healthy Living Pharmacy",
+                "phone": "8554256677"
+            },
+            {
+                "name": "Mother Care Medicals",
+                "phone": "8554235566"
+            },
+            {
+                "name": "Siva Medical Store",
+                "phone": "8554229988"
+            },
+            {
+                "name": "City Medicals Anantapur",
+                "phone": "8554225666"
+            },
+            {
+                "name": "Triumph Pharma",
+                "phone": "8554242211"
+            },
+            {
+                "name": "Standard Medicals",
+                "phone": "8554217963"
+            },
+            {
+                "name": "Reddy Medicals",
+                "phone": "8554222333"
+            },
+            {
+                "name": "Global Pharmacy",
+                "phone": "8554233444"
+            }
+        ]
+    }
+}

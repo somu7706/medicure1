@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 48 9% 97%;
+    --foreground: 153 29% 14%;
+    --card: 0 0% 100%;
+    --card-foreground: 153 29% 14%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 153 29% 14%;
+    --primary: 173 78% 25%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 140 76% 97%;
+    --secondary-foreground: 144 61% 20%;
+    --accent: 173 58% 39%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 140 11% 95%;
+    --muted-foreground: 215 16% 47%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 96%;
+    --ring: 173 78% 25%;
+    --radius: 0.75rem;
+    
+    /* VitalWave special colors */
+    --amber-signal: 38 92% 50%;
+    --success-signal: 160 84% 39%;
+    --danger-signal: 0 84% 60%;
+    --glass-border: rgba(255, 255, 255, 0.4);
+  }
+
+  .dark {
+    --background: 160 38% 8%;
+    --foreground: 150 14% 91%;
+    --card: 158 30% 11%;
+    --card-foreground: 150 14% 91%;
+    --popover: 158 30% 11%;
+    --popover-foreground: 150 14% 91%;
+    --primary: 170 76% 51%;
+    --primary-foreground: 160 38% 8%;
+    --secondary: 162 33% 12%;
+    --secondary-foreground: 168 74% 91%;
+    --accent: 173 58% 39%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 153 29% 14%;
+    --muted-foreground: 215 20% 65%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 160 23% 23%;
+    --input: 153 29% 14%;
+    --ring: 170 76% 51%;
+    
+    /* VitalWave special colors - dark */
+    --glass-border: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* ECG Pattern Background */
+.ecg-pattern {
+  background-image: radial-gradient(hsl(var(--foreground) / 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Glass Panel Effect */
+.glass-panel {
+  @apply backdrop-blur-xl border shadow-sm;
+  background: hsl(var(--card) / 0.6);
+  border-color: var(--glass-border);
+}
+
+.dark .glass-panel {
+  background: hsl(var(--card) / 0.4);
+}
+
+/* VitalWave Animation */
+@keyframes vital-wave {
+  0%, 100% { transform: scaleY(0.3); }
+  50% { transform: scaleY(1); }
+}
+
+.vital-wave-bar {
+  animation: vital-wave 1s ease-in-out infinite;
+}
+
+.vital-wave-bar:nth-child(2) { animation-delay: 0.1s; }
+.vital-wave-bar:nth-child(3) { animation-delay: 0.2s; }
+.vital-wave-bar:nth-child(4) { animation-delay: 0.3s; }
+.vital-wave-bar:nth-child(5) { animation-delay: 0.4s; }
+
+/* Heartbeat Animation */
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  14% { transform: scale(1.3); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.3); }
+  70% { transform: scale(1); }
+}
+
+.heartbeat {
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+/* Page Transitions */
+.page-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 150ms ease-out, transform 150ms ease-out;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 100ms ease-in;
+}
+
+/* Shimmer Loader */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    hsl(var(--muted)) 25%,
+    hsl(var(--muted-foreground) / 0.1) 50%,
+    hsl(var(--muted)) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* Leaflet Map Customization */
+.leaflet-container {
+  background: hsl(var(--muted));
+  border-radius: var(--radius);
+}
+
+.leaflet-popup-content-wrapper {
+  @apply rounded-xl shadow-lg;
+  background: hsl(var(--card));
+  color: hsl(var(--card-foreground));
+}
+
+.leaflet-popup-tip {
+  background: hsl(var(--card));
+}
+
+/* Button hover effects */
+.btn-hover-lift {
+  @apply transition-all duration-200;
+}
+
+.btn-hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px hsl(var(--primary) / 0.25);
+}
+
+.btn-hover-lift:active {
+  transform: translateY(0);
+}
+
+/* Focus states */
+*:focus-visible {
+  @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+}
+
+/* Data wrapper fix */
+[data-debug-wrapper="true"] {
+  display: contents !important;
+}
